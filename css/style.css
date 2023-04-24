@@ -1,0 +1,120 @@
+h1,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px auto;
+  background-color: #000720;
+  color: #ffffff;
+  font-family: "Lilita One", sans-serif;
+  max-width: 1700px;
+}
+li {
+  list-style: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.parte1-main h1 {
+  font-size: 4rem;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.size-2rem {
+  font-size: 2rem;
+}
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.grid {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+.tm-h1 {
+  font-size: 64px;
+}
+.parte1-main h1 {
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+.parte1-main p {
+  font-size: 32px;
+}
+
+.part2-main {
+  justify-self: center;
+}
+.part2-main p {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 50px;
+}
+
+.list li {
+  font-size: 24px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+}
+.list {
+}
+
+.feliz h1 {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.img-seta {
+  display: block;
+  padding-top: 100px;
+  align-self: center;
+  justify-self: center;
+
+}
+
+.main1 {
+  padding-bottom: 300px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    padding-bottom: 50px;
+    
+  }
+  .part2-main p{
+    padding-top: 45px;
+  }
+  .pf-resp{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .parte1-main h1{
+    padding-top: 20px;
+  }
+  .parte1-main p{
+    padding-top: 30px;
+  }
+  .tm-h1{
+   font-size: 50px;
+  
+  }
+ .img-seta{
+  justify-self: center;
+  grid-row: 2;
+ }
+
+}
+
