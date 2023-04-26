@@ -41,8 +41,6 @@ li {
   padding-bottom: 100px;
 }
 
-
-
 .tm-h1 {
   font-size: 64px;
 }
@@ -81,40 +79,46 @@ li {
   padding-top: 100px;
   align-self: center;
   justify-self: center;
-
 }
 
 .main1 {
   padding-bottom: 300px;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: 1fr;
     padding-bottom: 50px;
-    
   }
-  .part2-main p{
+  .part2-main p {
     padding-top: 45px;
   }
-  .pf-resp{
+  .pf-resp {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .parte1-main h1{
+  .parte1-main h1 {
     padding-top: 20px;
   }
-  .parte1-main p{
+  .parte1-main p {
     padding-top: 30px;
   }
-  .tm-h1{
-   font-size: 50px;
-  
+  .tm-h1 {
+    font-size: 50px;
   }
- .img-seta{
-  justify-self: center;
-  grid-row: 2;
- }
-
+  .img-seta {
+    justify-self: center;
+    grid-row: 2;
+  }
+  video {
+    width: 450px;
+    height: 300px;
+  }
 }
-
